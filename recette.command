@@ -8,7 +8,7 @@ git pull origin master
 ionic build
 
 echo "••••••••• Se déplacer vers le répertoire de la recette:"
-cd ../jobyer.github.io
+cd ../oscarien.github.io
 pwd
 
 echo "••••••••• Preparer le répertoire local de la recette:"

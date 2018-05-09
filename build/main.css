@@ -32535,7 +32535,7 @@ voj-page-header ion-navbar.toolbar.mobile-header .toolbar-content {
 }
 
 voj-page-header .back-button {
-  color: #ffffff;
+  color: #000000;
   margin-left: 0;
   padding-left: 0;
 }
@@ -33190,6 +33190,123 @@ options-page .voj-card-buttons button:hover {
 }
 
 .options-message .alert-button-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 8px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+oscarien-profile-page {
+  background-color: #ffffff;
+  overflow-y: auto;
+  border-radius: 2px;
+}
+
+oscarien-profile-page .voj-content {
+  overflow-y: auto;
+}
+
+oscarien-profile-page .voj-content .voj-form-container {
+  background-color: #ffffff;
+  padding: 20px 16px;
+  text-align: center;
+}
+
+user-list .danger-button {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 97%;
+  background-color: #f53d3d;
+}
+
+user-list .danger-button:hover {
+  background-color: #f53d3d !important;
+}
+
+user-list .my-offers-warning-message {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+user-list .my-offers-info-message {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+user-list .oscarien-page-content {
+  background-color: var(--voj-color-primary);
+  height: 100% !important;
+}
+
+user-list .oscarien-page-content .scroll-content {
+  padding: 0px !important;
+}
+
+user-list ion-segment-button {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+user-list .my-offers-message {
+  z-index: 1;
+  bottom: 5%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+user-list .my-offers-warning-chip {
+  background-color: #f53d3d;
+  color: #ffffff;
+}
+
+user-list .my-offers-info-chip {
+  background-color: var(--voj-color-primary);
+  color: #ffffff;
+}
+
+user-list #map {
+  position: relative;
+  height: 100%;
+}
+
+user-list ion-card.map.card.card-md {
+  height: 72%;
+  width: 100% !important;
+  margin: 0;
+}
+
+.my-offers-message .alert-message {
+  font-size: 16px;
+  text-align: center;
+}
+
+.my-offers-message .alert-button .button-inner {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.my-offers-message .alert-button {
+  background-color: var(--voj-color-primary);
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  margin: 15px;
+  width: 100px;
+}
+
+.my-offers-message .alert-button-group {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -34712,6 +34829,36 @@ ion-spinner * {
   width: 28px;
   height: 28px;
   stroke: #444 !important;
+}
+
+page-interviews-calendar,
+page-interviews-calendar voj-calendar {
+  background-color: #ffffff !important;
+}
+
+page-interviews-calendar .calender-container {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: var(--voj-color-primary) !important;
+  overflow: scroll;
+}
+
+page-interviews-calendar .calendar-wrapper {
+  height: 92%;
+}
+
+page-interviews-calendar .calendar-wrapper.pad {
+  background-color: var(--voj-color-primary) !important;
+  padding: 16px;
+  padding-top: 0;
+}
+
+page-interviews-calendar fullcalendar-wrapper {
+  overflow: scroll;
 }
 
 page-about ion-header {
