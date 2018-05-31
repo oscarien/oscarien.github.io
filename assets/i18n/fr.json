@@ -224,7 +224,7 @@
   "CALENDAR": {
     "TITLE": "Mon calendrier",
     "JOBYER_TITLE": "Mes disponibilités",
-    "EMPLOYER_TITLE": "Mon calendrier des annonces",
+    "EMPLOYER_TITLE": "Mon calendrier des prestations",
     "MISSION_CALENDAR_TITLE": "Mon calendrier de travail"
   },
   "SEARCH_SELECT": {
@@ -356,15 +356,15 @@
     "NO_RESULTS": "Aucun résultat trouvé"
   },
   "OFFER_DETAIL": {
-    "SAVE_NEW_AD": "Enregistrer l'annonce",
-    "CREATE_PREFILLED_AD": "Créer une annonce pré-remplie",
+    "SAVE_NEW_AD": "Enregistrer la prestation",
+    "CREATE_PREFILLED_AD": "Créer une prestation pré-remplie",
     "INFORMATION_SAVED": "Information(s) enregistrée(s)",
     "INFORMATION_UPDATED": "Information(s) mise(s) à jour",
-    "AD_PRIVATED": "Annonce rendue privée",
-    "AD_SAVED": "Annonce enregistrée",
-    "AD_UPDATED": "Annonce modifiée",
-    "AD_REMOVED": "Annonce supprimée",
-    "AD_PUBLISHED": "Annonce mise en ligne"
+    "AD_PRIVATED": "Prestation rendue privée",
+    "AD_SAVED": "Prestation enregistrée",
+    "AD_UPDATED": "Prestation modifiée",
+    "AD_REMOVED": "Prestation supprimée",
+    "AD_PUBLISHED": "Prestation mise en ligne"
   },
   "CONVENTION_DATA": {
     "TITLE": "Mes conditions d'employeur"
@@ -373,7 +373,7 @@
     "TITLE": "Formations"
   },
   "OFFER_SLOTS": {
-    "START_GREATER_THAN_TODAY": "L'annonce ne peut pas commencer à une date antérieure à la date d'aujourd'hui",
+    "START_GREATER_THAN_TODAY": "La prestation ne peut pas commencer à une date antérieure à la date d'aujourd'hui",
     "END_GREATER_OR_EQUAL_THAN_START": "La date de fin devrait être supérieure ou égale à la date de début",
     "END_GREATER_THAN_START": "L'heure de fin doit être supérieure à l'heure de début",
     "MAX_DURATION": "Un créneau de travail ne peut dépasser 10 heures consécutives"

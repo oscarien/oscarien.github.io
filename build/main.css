@@ -35189,8 +35189,52 @@ page-oscar-prestation-calendar .calendar-wrapper.pad {
   padding-top: 0;
 }
 
+page-oscar-prestation-contacts .add-contact {
+  background: #2F6AC5;
+  color: #FFFFFF;
+  padding-left: 1%;
+  width: 98%;
+}
+
+page-oscar-prestation-contacts .contact-name {
+  padding-left: 3px;
+}
+
+page-oscar-prestation-contacts .update {
+  background: #2F6AC5;
+  color: #FFFFFF;
+}
+
+page-oscar-prestation-contacts .delete {
+  background: #FF0000;
+  color: #FFFFFF;
+}
+
+page-oscar-prestation-details voj-form > form {
+  width: 95%;
+  padding-left: 2.5%;
+  padding-top: 5px;
+}
+
+page-oscar-prestation-details .add-regie-btn {
+  background: #488aff;
+  margin-left: 1%;
+  margin-right: 0;
+  width: 98%;
+}
+
 page-oscar-prestation-details .information-resume-required {
   color: var(--voj-color-danger);
+}
+
+page-oscar-prestation-details .danger {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+page-oscar-prestation-details .danger:hover {
+  background: #ff0000;
+  color: #ffffff;
 }
 
 page-oscar-prestation-details .voj-detail-button {
@@ -35351,6 +35395,28 @@ page-oscar-prestation-list ion-card.map.card.card-md {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+page-oscar-prestation-unit .msg-warning {
+  color: #ff0000;
+}
+
+page-oscar-prestation-unit .convention-link {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+page-oscar-prestation-unit .validation-button {
+  background-color: #d339f8;
+  text-transform: capitalize;
+  color: #fff;
+  border-color: #d339f8;
+  border-radius: 4%;
+  padding: 0 10%;
+  width: 100%;
 }
 
 registration-message-page .registration-message-container {
