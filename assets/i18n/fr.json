@@ -6,9 +6,7 @@
   "FORM": {
     "PHONE": "Numéro de téléphone",
     "COUNTRY_CODE": "Indicatif",
-    "ACTIVITY_CODE": "Activité",
     "COUNTRY_CODE_PICKER_TITLE": "Liste des indicatifs",
-    "ACTIVITY_CODE_PICKER_TITLE": "Prestation RH",
     "EMAIL": "Adresse mail",
     "PASSWORD": "Mot de passe",
     "PASSWORD_CONFIRMATION": "Confirmation du mot de passe",
@@ -25,7 +23,6 @@
   },
 
   "PLACEHOLDER": {
-    "ENTER_ACTIVITY": "Selectionnez une prestation",
     "ENTER_PHONE": "Numéro de téléphone",
     "ENTER_MAIL": "Adresse mail",
     "ENTER_PASSWORD": "Mot de passe",
